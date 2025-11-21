@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Durgesh Dwivedi — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <div class="hero-left">
+        <div class="avatar" id="avatarDD" aria-hidden="true">DD</div>
+        <div class="hero-meta">
+          <h1 class="title">Durgesh Dwivedi</h1>
+          <p class="subtitle">Web Developer • Java Programmer • DSA Learner</p>
+          <div class="links">
+            <a href="https://github.com/durgeshdwivedi22" class="btn btn-primary" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/durgesh-dwivedi-7abb05290" class="btn btn-primary" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="durgeshdwivediresume.pdf" class="btn btn-outline" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="stats">
+          <div class="stat">
+            <div class="num" data-target="5">0</div>
+            <div class="label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="3">0</div>
+            <div class="label">Certificates</div>
+          </div>
+          <div class="stat">
+            <div class="num" data-target="2">0</div>
+            <div class="label">Competitions</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="skills" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Technologies & tools I use — animated neon badges</p>
+      <div class="skills-grid">
+        <div class="skill" data-skill="HTML">HTML</div>
+        <div class="skill" data-skill="CSS">CSS</div>
+        <div class="skill" data-skill="JavaScript">JavaScript</div>
+        <div class="skill" data-skill="Java">Java</div>
+        <div class="skill" data-skill="MongoDB">MongoDB</div>
+        <div class="skill" data-skill="DSA">DSA</div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="projects" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-card glow-card">
+        <div class="project-info">
+          <h3>Rating Page Winner System</h3>
+          <p>A website where users rate participants, real-time graph visualization shows the winner.</p>
+          <div class="project-actions">
+            <button class="btn btn-sec view-image" data-src="Screenshot 2025-11-21 115407.png">Open Screenshot</button>
+          </div>
+        </div>
+        <div class="project-thumb">
+          <img src="Screenshot 2025-11-21 115407.png" alt="Rating Page Screenshot">
+        </div>
+      </div>
+
+      <div class="project-card glow-card">
+        <div class="project-info">
+          <h3>Weather Site</h3>
+          <p>A simple weather forecasting website providing current weather updates.</p>
+          <div class="project-actions">
+            <a href="https://glittery-malabi-683991.netlify.app/" class="btn btn-sec" target="_blank" rel="noopener">View Project</a>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATES ================= -->
+    <section class="certificates" id="certificates">
+      <h2 class="section-title">Certificates</h2>
+
+      <div class="cert-grid">
+  <div class="cert-card glow-card">
+    <h3>MongoDB Certification</h3>
+    <p>Completed a comprehensive course on MongoDB programming.</p>
+    <a href="https://learn.mongodb.com/c/-4UzgbiEQbeP8U7JfCIxdQ" 
+       class="btn-sec" 
+       target="_blank"
+       rel="noopener noreferrer">
+      View Certificate
+    </a>
+  </div>
+</div>
+
+
+        <div class="cert-card glow-card">
+          <h3>Web Development Internship</h3>
+          <p>Web development internship certificate.</p>
+          <div class="cert-row">
+            <a href="https://verify.interncertify.com/interncertify-verified-certificate-4412/" class="btn btn-sec" target="_blank" rel="noopener">View Certificate</a>
+           
+          </div>
+        </div>
+
+        <div class="cert-card glow-card">
+          <h3>College Competition</h3>
+          <p>Certificate of participation in college competition.</p>
+          <div class="cert-thumbs">
+            <img src="1st.jpeg" alt="1st certificate" class="cert-thumb view-image" data-src="1st.jpeg">
+            <img src="2nd.jpeg" alt="2nd certificate" class="cert-thumb view-image" data-src="2nd.jpeg">
+            <img src="3rd.jpeg" alt="3rd certificate" class="cert-thumb view-image" data-src="3rd.jpeg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION / TIMELINE ================= -->
+    <section class="timeline" id="education">
+      <h2 class="section-title">Education & Achievements</h2>
+      <div class="timeline-wrap">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="time-meta">
+            <h4>College</h4>
+            <p>Attending college — participated in competitions and projects.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="time-meta">
+            <h4>Competitions</h4>
+            <p>Participated in college competitions — see certificates above.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <a href="mailto:durgesh@example.com" class="btn btn-outline">Email Me</a>
+        </div>
+      </form>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="socials">
+        <a href="https://github.com/durgeshdwivedi22" target="_blank" rel="noopener" class="social">GitHub</a>
+        <a href="https://linkedin.com/in/durgesh-dwivedi-7abb05290" target="_blank" rel="noopener" class="social">LinkedIn</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Durgesh Dwivedi | All Rights Reserved</p>
+    </footer>
+
+  </div> <!-- wrap -->
+
+  <!-- IMAGE MODAL -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+      <img id="modalImage" src="" alt="Preview">
+    </div>
+  </div>
+
+  <!-- main script -->
+  <script src="script.js"></script>
+</body>
+</html>
